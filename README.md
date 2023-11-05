@@ -81,7 +81,14 @@ Insert the date of completed.
 ```http
   PATCH /api/tasks/:id/complete
 ```
-    
+
+### Download All Tasks in CSV
+
+Get and Convert all tasks JSON to format CSV and send.
+
+```http
+  GET /api/tasks/csv
+```    
 
 ## :four_leaf_clover: Technologies used
 
